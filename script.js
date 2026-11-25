@@ -7,13 +7,13 @@ const themeBtn = document.getElementById("theme-btn");
 const message = document.getElementById("message");
 
 // งาน 1: เมื่อกดปุ่ม "ทักทาย" ให้แสดงข้อความของทีม
-helloBtn.addEventListener("ทักทาย", function () {
+helloBtn.addEventListener("click", function () {
   // แก้ข้อความในเครื่องหมายคำพูดเป็นคำทักทายของทีมตัวเอง
   message.textContent = "หวัดดี";
 });
 
 // งาน 2: เมื่อกดปุ่ม "สลับโหมดมืด" ให้เพิ่มหรือลบ class "dark" ที่ body
 themeBtn.addEventListener("click", function () {
- document.body.classList.toggle("Dark")
+ document.body.classList.toggle("dark")
   // คำใบ้: document.body.classList.toggle("ชื่อ class");
 });
