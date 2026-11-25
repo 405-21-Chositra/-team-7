@@ -34,6 +34,6 @@ button {
 /* โหมดมืด: script.js จะเพิ่ม class "dark" ให้ body */
 body.dark {
   /* งานเสริม: กำหนดสีของโหมดมืด */
-  background-color: #5594e79f;
+  background-color: #194a8a9f;
   color: white;
 }

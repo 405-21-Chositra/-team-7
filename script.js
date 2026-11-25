@@ -7,7 +7,7 @@ const themeBtn = document.getElementById("theme-btn");
 const message = document.getElementById("message");
 
 // งาน 1: เมื่อกดปุ่ม "ทักทาย" ให้แสดงข้อความของทีม
-helloBtn.addEventListener("ทักทาย", function () {
+helloBtn.addEventListener("click", function () {
   // แก้ข้อความในเครื่องหมายคำพูดเป็นคำทักทายของทีมตัวเอง
   message.textContent = "หวัดดี";
 });
